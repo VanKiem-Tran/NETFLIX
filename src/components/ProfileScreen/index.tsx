@@ -12,16 +12,12 @@ function ProfileScreen() {
       <div className="profileScreen__body">
         <h1>Edit Profile</h1>
         <div className="profileScreen__info">
-          <img
-            src="https://archive.org/download/HeaderIconUser/Header-Icon-User.png"
-            alt=""
-          />
+          <img src="https://www.pngrepo.com/png/240410/180/farmer.png" alt="" />
         </div>
         <div className="profileScreen__details">
           <h2>{user.email}</h2>
         </div>
         <div className="profileScreen__plans">
-          <h3>Plans</h3>
           <p />
           <button
             type="button"
