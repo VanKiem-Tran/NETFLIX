@@ -72,8 +72,6 @@
     "typescript": "^4.4.2"
   },
   "lint-staged": {
-    "src/**/*.{tsx,ts,jsx,js,json,css}": [
-      "prettier --write"
-    ]
+    "src/**/*.{tsx,ts,jsx,js,json,css}": []
   }
 }
